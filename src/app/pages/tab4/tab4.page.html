@@ -1,0 +1,35 @@
+<ion-header>
+    <ion-toolbar color="primary">
+        <ion-title style="font-family: cursive ; color: #fff">My Profile</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content>
+  
+  </ion-content>
+  
+  <ion-tabs>
+      <ion-tab-bar>
+        <ion-tab-button>
+          <ion-icon name="calendar" (click)="tab1()"></ion-icon>
+          <ion-label> Calendar </ion-label>
+        </ion-tab-button>
+        <ion-tab-button>
+           <ion-icon name="hand" (click)="tab2()"></ion-icon>
+          <ion-label>Details</ion-label>
+        </ion-tab-button>
+        <ion-tab-button>
+          <ion-icon name="home" (click)="tabs()"></ion-icon>
+          <ion-label>Home</ion-label>
+        </ion-tab-button>
+        <ion-tab-button>
+            <ion-icon name="create" (click)="tab3()"></ion-icon>
+            <ion-label>Apply Leave</ion-label>
+          </ion-tab-button>
+          <ion-tab-button>
+              <ion-icon name="person" (click)="tab4()"></ion-icon>
+              <ion-label>Profile</ion-label>
+            </ion-tab-button>
+      </ion-tab-bar>
+    </ion-tabs>
+    

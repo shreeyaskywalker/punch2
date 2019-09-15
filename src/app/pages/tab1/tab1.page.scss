@@ -1,0 +1,29 @@
+*{
+    font-family: cursive;
+    font-weight: 400;
+}
+
+p{
+    text-align: center;
+}
+
+.button_round{
+    border-radius: 50%;
+    background-color: #F666C1;
+    width: 200px;
+    height: 200px;
+    margin-left: 85px;
+    margin-top: 30px;
+    font-size: 20px;
+    padding: 20px;
+}
+
+ion-icon{
+    color:#F666C1;
+}
+
+ion-content{
+
+    --ion-background-color:#f1f1f1;
+
+}
